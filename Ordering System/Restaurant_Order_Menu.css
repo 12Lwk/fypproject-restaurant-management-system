@@ -1,0 +1,266 @@
+body {
+    background-color: whitesmoke;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/*Header*/
+header {
+    background-color: #262f40;
+    color: white;
+    padding: 20px;
+}
+
+.menu-wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.position-left a{
+    display: block;
+    padding: 14px;
+    text-decoration: none;
+    color: white;
+}
+
+.position-right {
+    float: right;
+}
+
+nav a:hover {
+    font-weight: bold;
+    color: black;
+    background-color: rgb(246, 228, 228);
+    animation: float 1s infinite;
+}
+
+@keyframes float {
+    0% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-10px);
+    }
+    100% {
+        transform: translateY(0);
+    }
+}
+
+/*<Right Handside Widgets>*/
+/*Shopping Cart Icon*/
+.material-symbols-outlined {
+    font-size: 2.99em;
+    font-variation-settings:
+    'FILL' 0,
+    'wght' 700,
+    'GRAD' 0, 
+}
+
+/*Cancel Button*/
+.cancel-order{
+    margin: auto;
+    color: white;
+    font-size: 27px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    cursor: pointer;
+}
+
+.cancel-order:hover{
+    color: red;
+}
+
+.position-right{
+    display: flex;
+    margin-left: auto;
+    gap: 30px;
+    margin-right: 18px;
+}  
+/*End of Header*/
+
+/*<Menu>*/
+main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+section {
+    width: 80%;
+}
+
+section h2 {
+    text-align: left;
+    margin-bottom: 20px;
+    margin-left: 10px;
+    font-size: 30px;
+}
+
+section ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+section li {
+    margin-bottom: 20px;
+}
+
+section img {
+    width: 100%;
+}
+
+section button {
+    background-color: #7380ec;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+section button:hover {
+    background-color: #d39a4a;
+}
+
+.Menu{
+    text-align: center;
+    font-size: 40px;
+    font-weight: bold;
+    font-family: cursive;
+}
+
+.panel2 #shopping-cart {
+    margin: 0;
+    top: 10;
+    padding: 0;
+    text-align: center;
+    font-size: 25px;
+}
+
+.panel2 #shopping-cart li {
+    list-style: none;
+    margin-bottom: 10px; 
+}
+
+.menu-item{
+    background-color: #fff;
+    border:4px solid #7380ec; 
+	margin: 10px;
+    padding: 15px;
+}
+
+.food-photos{
+    width: 290px;
+    height: 260px;
+    margin-top: 8px;
+}
+
+h4{
+    font-weight: bold;
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 0px;
+    border: 0px;
+    margin: 0px;
+}
+/*End of Menu*/
+
+/*Footer*/
+footer {
+    background-color: #262f40;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+/*<floating go top button>*/
+#go-top-btn {
+    position: fixed;
+    bottom: 40px;
+    right: 30px;
+    width: 40px;
+    height: 40px;
+    background-color: rgba(28, 25, 25, 0.103);
+    color: black;
+    font-weight:bolder;
+    font-size: 40px;
+    border-radius: 50%;
+    cursor: pointer;
+    animation: float 2s infinite;
+}
+@keyframes float {
+    0% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-10px);
+    }
+    100% {
+        transform: translateY(0);
+    }
+}
+
+#go-top-btn:hover{
+    color: #0042bd;
+}
+
+/*<Left Panel>*/
+  .panel2{
+    background-color: lightblue;
+    border: 1px none;
+    position: absolute;
+    left: 40px;
+    top: 120px;
+    /*Adjust panel2 size*/
+    width: 430px;
+    border-radius: 40px;
+    overflow: visible;
+}
+
+.add_btn{
+    background-color: #7380ec;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.add_btn:hover{
+    background-color: #d39a4a;
+}
+
+.order-menu{
+    margin: auto;
+    margin-top: 30px;
+}
+  
+.menu-grid{ 
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 5px;
+    column-gap: 30px;
+    justify-content: end;
+}
+
+.cart{
+    font-size: 2rem;
+    color:var(--white);
+    text-decoration: none;
+    padding: .3rem .5rem;
+    border-radius: .5rem;
+    background-color: white;
+    color: blue;
+    font-size: 2rem;
+}

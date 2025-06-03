@@ -1,0 +1,174 @@
+body {
+    background-color: whitesmoke;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/*Header*/
+header {
+    background-color: #262f40;
+    color: white;
+    padding: 20px;
+}
+
+.menu-wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.position-left a{
+    display: block;
+    padding: 14px;
+    text-decoration: none;
+    color: white;
+}
+
+.position-right {
+    float: right;
+    margin-right: 18px;
+}
+
+nav a:hover {
+    font-weight: bold;
+    color: black;
+    background-color: rgb(246, 228, 228);
+    animation: float 1s infinite;
+}
+
+@keyframes float {
+    0% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-10px);
+    }
+    100% {
+        transform: translateY(0);
+    }
+}
+
+/*<Right Handside Widgets>*/
+/*Shopping Cart Icon*/
+.material-symbols-outlined {
+    font-size: 2.99em;
+    font-variation-settings:
+    'FILL' 0,
+    'wght' 700,
+    'GRAD' 0,
+  
+}
+
+.cancel-order{
+    margin: auto;
+    color: white;
+    font-size: 27px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    cursor: pointer;
+}
+
+.cancel-order:hover{
+    color: red;
+}
+
+.position-right{
+    display: flex;
+    margin-left: auto;
+    gap: 30px;
+}  
+
+.cart{
+    font-size: 2rem;
+    color:var(--white);
+    text-decoration: none;
+    padding: .3rem .5rem;
+    border-radius: .5rem;
+    background-color: white;
+    color: blue;
+    font-size: 2rem;
+}
+
+.shopping-cart{
+    text-align: center;
+    width: 100%;
+    margin-left: 0px;
+    
+}
+
+.shopping-cart table thead th{
+    padding-left: 100px;
+    padding-right: 100px;
+    font-size: 1.65rem;
+    color: white;
+    background-color: #16f7d9;
+    color: black;
+
+}
+
+td{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 25px;
+    background-color: white;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.heading{
+
+    font-size: 35px;
+}
+
+.btn{
+    position: relative;
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    background-color: grey;
+    border-color: black;
+    display: block;
+    width: 70%;
+    padding: 10px;
+    cursor: pointer;
+    margin: 0 auto;
+    text-align: center;
+    text-decoration: none;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+.btn:hover{
+    background-color: #262f40;
+}
+
+/*table{
+    background-color: black;
+}*/
+
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 48
+  
+}
+
+.delete-btn{
+    color: royalblue;
+    
+}
+
+.delete-btn:hover{
+    color:red;
+    text-decoration: line-through;
+}
