@@ -75,19 +75,7 @@ This project is a classic client-server web application built with the following
 
 ---
 
-## 5. System Screenshots
-
-### Admin Panel
-![Admin Dashboard](https://i.imgur.com/your-admin-dashboard-image.png)
-*(Admin dashboard showing sales overview, last orders, and top customers)*
-
-### Customer Ordering Flow
-![Customer Menu](https://i.imgur.com/your-customer-menu-image.png)
-*(Customer view of the menu for placing an order)*
-
----
-
-## 6. Setup and Installation
+## 5. Setup and Installation
 
 To run this project on your local machine, please follow these steps:
 
@@ -109,13 +97,13 @@ To run this project on your local machine, please follow these steps:
     * Click "Choose File" and select the `.sql` file provided in this repository (`fyp.sql`).
     * Click "Go" to import the database structure and data.
 
-6.  **Run the Application:**
+5.  **Run the Application:**
     * Open your web browser and navigate to `http://localhost/your-project-folder-name`.
     * You should now see the application's homepage.
 
 ---
 
-## 7. Project Authors
+## 6. Project Authors
 
 * **Lee Wen Kang**
 * **Choong Cheng Wai**
