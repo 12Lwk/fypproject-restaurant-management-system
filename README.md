@@ -103,7 +103,7 @@ To run this project on your local machine, please follow these steps:
 
 ---
 
-## 6. Project Authors
+## 6. Project Authors / Contributors
 
 * **Lee Wen Kang**
 * **Choong Cheng Wai**
